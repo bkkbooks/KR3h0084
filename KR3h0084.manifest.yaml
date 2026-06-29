@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR3h0084/v1
+canonical_location: https://kanripo.org/bkk/KR3h0084/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 鼎錄一卷
+  identifiers:
+    krp: KR3h0084
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR3h
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR3h0084.xml
+  edition:
+    short: bkk
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR3h0084_001.yaml, hash: 'sha256:892f1c408dd7425efe4c7785019e95e33496fc58ea5bc3a9859c325ccc5ac4b3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3h0084_001.markers.yaml, hash: 'sha256:3f048318f1e3988d2f41a7b16427f7836985ea359f5c2d05fc4dbfbedc1d25d6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3h0084_CHANT_001-1a.1-h
+    span:
+    - front
+    - 0
+    - 2014
+  label: 鼎錄并序
+  type: section
+  level: 1
+hash: sha256:50cd4e5bed5368d7d69e6f51dca7008c0db9eb79318ab0c3079d88701ca32488
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3h0084/krp/v1
+canonical_location: https://kanripo.org/bkk/KR3h0084/krp/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 鼎錄
+  date: '2015-08-24 23:16:51.883073'
+  source:
+    repository: kanripo
+    path: KR3h0084
+  base_edition: WYG
+  edition:
+    short: krp
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3h0084_000-krp.yaml, hash: 'sha256:3cac2e627cd4e1de74650bc89ad50affdc88f664fe10631dab287504a0081941'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3h0084_000-krp.markers.yaml, hash: 'sha256:82ea77bf375a0a4fb260c7d1c8d40340d81d59d8c629595a8a447c3e59748e02'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3h0084_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 2023
+  label: 鼎録
+  type: section
+  level: 1
+hash: sha256:24801442b85b0fd5c770ba09c0ad8ea480f7dbb43f38368ababe250151af6db6

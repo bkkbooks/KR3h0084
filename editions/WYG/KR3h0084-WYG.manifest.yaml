@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3h0084/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3h0084/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 鼎錄
+  date: '2015-08-24 23:16:51.883073'
+  source:
+    repository: kanripo
+    path: KR3h0084
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3h0084_000-WYG.yaml, hash: 'sha256:da5058ba1b36c689565341d8da30a1a6d701e2e81686257c0883155740ae10b5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3h0084_000-WYG.markers.yaml, hash: 'sha256:38958611f999486c4a65a8c90582dbfaa06d09aaac75138b26847557f098a16d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3h0084_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 2023
+  label: 鼎録
+  type: section
+  level: 1
+hash: sha256:727a0ae7fa715ae1e95cfa243b7fca44d019fd9c62e09a6d8b6029a93f089136

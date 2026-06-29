@@ -1,0 +1,35 @@
+canonical_identifier: bkk:krp/KR3h0084/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3h0084/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 鼎錄一卷
+  identifiers:
+    krp: KR3h0084
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR3h
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR3h0084.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3h0084_001-CHANT.yaml, hash: 'sha256:fc329c2e7f16b020534e48e921764002a4d4ce15fd4596f791275a5ecf7d5369'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3h0084_001-CHANT.markers.yaml, hash: 'sha256:f4ad96effcd57d5400fa930a2782ff0f8226657d78bb00fcd225741df767639e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3h0084_CHANT_001-1a.1-h
+    span:
+    - front
+    - 0
+    - 2014
+  label: 鼎錄并序
+  type: section
+  level: 1
+hash: sha256:b67510c4cf6a3aefbcc7e456437fb4531233bd57495d015e80a83f5ee0816728
