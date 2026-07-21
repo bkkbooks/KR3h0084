@@ -22,21 +22,21 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR3h0084_001.yaml, hash: 'sha256:c0ee266edaa4fa588bf171326da735ad60665f63bf4c7a9d4cee2db450ef51ce'}
+  - {seq: 1, filename: KR3h0084_001.yaml, hash: 'sha256:b1019370fa2adf42fb6fcefa8bf711ebcf2ce191b88fb7cb767ed7de7fba5d34'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3h0084_001.markers.yaml, hash: 'sha256:11e877f42ffeb5efa51ba078891aeb4434fab9c992987a65becf61600df6c78a'}
+  - {seq: 1, role: markers, filename: assets/KR3h0084_001.markers.yaml, hash: 'sha256:fe3be4b8ec1bfe0a1427baf1bcebc32d786a3096fa2efbf2c2f67207b1e3e23e'}
 table_of_contents:
 - ref:
     seq: 1
     marker_id: KR3h0084_CHANT_001-1a.1-h
     span:
-    - front
+    - body
     - 0
     - 2014
   label: 鼎錄并序
   type: section
   level: 1
-hash: sha256:9cd756ea65158fbc23053bc7add4c6630ef13e8ae9e0542d0587651fc533af3e
+hash: sha256:288d882b395427234db2e8a64898756bd1f65460d65045003afd2380cea8fd49
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
